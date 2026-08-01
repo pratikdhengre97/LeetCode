@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/pratikdhengre97/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
 | [0198-house-robber](https://github.com/pratikdhengre97/LeetCode/tree/master/0198-house-robber) |
@@ -39,4 +40,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
