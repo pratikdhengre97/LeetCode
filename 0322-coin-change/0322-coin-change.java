@@ -1,36 +1,35 @@
 class Solution {
-    public int f(int ind, int[] coins, int t, int [][] dp) {
-        if(ind == 0) {
-            if(t%coins[ind] == 0) {
-                return t/coins[ind];
-            }
-            return Integer.MAX_VALUE;
-        }
-
-        if(dp[ind][t] != -1) return dp[ind][t];
-
-        int notTake = f(ind-1, coins, t, dp);
-        int take = Integer.MAX_VALUE;
-        if(coins[ind] <= t) {
-            int result = f(ind, coins , t-coins[ind], dp);
-
-            if(result != Integer.MAX_VALUE) {
-                take = 1 + result;
-            }
-        }
-        return dp[ind][t] = Math.min(take, notTake);
-    }
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        int t = amount;
+        int k = amount;
 
-        int[][] dp = new int[n][t+1];
-        for(int[] row : dp) {
-            Arrays.fill(row, -1);
+        int[][] dp = new int[n][k+1];
+
+        for(int t=0;t<=k;t++) {
+            if(t%coins[0] == 0) {
+                dp[0][t] = t/coins[0];
+            }
+            else {
+                dp[0][t] = Integer.MAX_VALUE;
+            }
         }
 
-        int ans = f(n-1, coins, amount, dp);
-        
-        return ans == Integer.MAX_VALUE ? -1 : ans;
+        for(int ind=1;ind<n;ind++) {
+            for(int t=0;t<=k;t++) {
+                int notTake = dp[ind-1][t];
+
+                int take = Integer.MAX_VALUE;
+                if(coins[ind] <= t) {
+                    int result = dp[ind][t-coins[ind]];
+
+                    if(result != Integer.MAX_VALUE) {
+                        take = 1 + result;
+                    }
+                }
+
+                dp[ind][t] = Math.min(take, notTake);
+            }     
+        }
+        return dp[n-1][k] == Integer.MAX_VALUE ? -1 : dp[n-1][k];
     }
 }
