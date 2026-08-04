@@ -3,26 +3,27 @@ class Solution {
         int n = coins.length;
         int target = amount;
 
-        int[][] dp = new int[n][target+1];
+        int[] prev = new int[target+1];
 
         for(int i=0;i<=target;i++) {
             if(i%coins[0] == 0) {
-                dp[0][i] = 1;
+                prev[i] = 1;
             }
         }
 
         for(int ind=1;ind<n;ind++) {
+            int[] curr = new int[target+1];
             for(int t=0;t<=target;t++) {
-                int notPick = dp[ind-1][t];
+                int notPick = prev[t];
 
                 int pick = 0;
                 if(coins[ind]<=t) {
-                    pick = dp[ind][t-coins[ind]];
+                    pick = curr[t-coins[ind]];
                 }
-
-                dp[ind][t] = pick + notPick;
+                curr[t] = pick + notPick;
             }
+            prev = curr;
         }
-        return dp[n-1][target];
+        return prev[target];
     }
 }
