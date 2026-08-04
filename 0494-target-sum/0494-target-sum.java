@@ -1,31 +1,10 @@
 class Solution {
-    public int f(int ind,int[] nums, int target, int[][] dp) {
-
-        if(ind == 0) {
-            if(target == 0 && nums[0] == target) return 2;
-
-            if(target == 0 || nums[0] == target) return 1;
-
-            return 0;
-        }
-
-        if(dp[ind][target] != -1) return dp[ind][target];
-
-
-        int notPick = f(ind-1,nums, target, dp);
-
-        int pick = 0;
-
-        if(nums[ind] <= target) {
-            pick = f(ind-1,nums,target-nums[ind],dp);
-        }
-        return dp[ind][target] = pick + notPick;
-    }
     public int findTargetSumWays(int[] nums, int target) {
         int n = nums.length;
-        int t = target;
+        int k = target;
 
         int totalSum = 0;
+
         for(int num : nums) {
             totalSum += num;
         }
@@ -34,12 +13,21 @@ class Solution {
 
         int subset = (totalSum-target)/2;
 
-        int[][] dp = new int[n][subset+1];
+        int[][] dp = new int[n+1][subset+1];
 
-        for(int[] row : dp) {
-            Arrays.fill(row, -1);
+        for(int i=0;i<=n;i++) {
+            dp[i][0] = 1;
         }
 
-        return f(n-1,nums,subset,dp);
+        for(int ind=1;ind<=n;ind++) {
+            for(int t=0;t<=subset;t++) {
+                dp[ind][t] = dp[ind-1][t];
+
+                if(nums[ind-1] <= t) {
+                    dp[ind][t] += dp[ind-1][t-nums[ind-1]];
+                }
+            }
+        }
+        return dp[n][subset];
     }
 }
