@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/pratikdhengre97/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/pratikdhengre97/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/pratikdhengre97/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
 ## Linked List
 |  |
 | ------- |
@@ -65,8 +67,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/pratikdhengre97/LeetCode/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/pratikdhengre97/LeetCode/tree/master/0322-coin-change) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
