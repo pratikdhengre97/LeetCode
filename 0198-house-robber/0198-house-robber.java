@@ -1,19 +1,25 @@
 class Solution {
-    public int robber(int i, int[] nums, int[] dp) {
-        if(i < 0) return 0;
-        if(i == 0) return nums[0];
+    public int robber(int ind, int[] nums, int[] dp) {
+        if(ind < 0) return 0;
 
-        if(dp[i] != -1) return dp[i];
+        if(ind == 0) return nums[0];
 
-        int pick = nums[i] + robber(i-2, nums, dp);
-        int notpick = robber(i-1, nums, dp);
+        if(dp[ind] != -1) return dp[ind];
 
-        return dp[i] = Math.max(pick, notpick);
+        int pick = nums[ind] + robber(ind-2,nums,dp);
+
+        int notpick = robber(ind-1, nums, dp);
+
+        return dp[ind] = Math.max(pick, notpick);
+
     }
     public int rob(int[] nums) {
         int n = nums.length;
+
         int[] dp = new int[n];
+
         Arrays.fill(dp, -1);
-        return robber(n-1,nums, dp);
+
+        return robber(n-1, nums, dp);
     }
 }
