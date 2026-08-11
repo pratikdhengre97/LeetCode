@@ -3,15 +3,17 @@ class Solution {
         int n = nums.length;
         int cnt = 0;
 
-        for(int i=0;i<n;i++) {
-            int sum = 0;
-            for(int j=i;j<n;j++) {
-                sum += nums[j];
+        Map<Integer, Integer> mpp = new HashMap<>();
+        mpp.put(0,1);
 
-                if(sum == k) {
-                    cnt++;
-                }
+        int sum = 0;
+        for(int i=0;i<n;i++) {
+            sum += nums[i];
+            if(mpp.containsKey(sum-k)) {
+                cnt += mpp.get(sum-k);
             }
+
+            mpp.put(sum, mpp.getOrDefault(sum,0)+1);
         }
         return cnt;
     }
