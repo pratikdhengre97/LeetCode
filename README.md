@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/pratikdhengre97/LeetCode/tree/master/0518-coin-change-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/pratikdhengre97/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/pratikdhengre97/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/pratikdhengre97/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -124,4 +126,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0001-two-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/pratikdhengre97/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
