@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0093-restore-ip-addresses](https://github.com/pratikdhengre97/LeetCode/tree/master/0093-restore-ip-addresses) |
 | [0494-target-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0494-target-sum) |
 ## 0-1 Knapsack
 |  |
@@ -133,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
+## String
+|  |
+| ------- |
+| [0093-restore-ip-addresses](https://github.com/pratikdhengre97/LeetCode/tree/master/0093-restore-ip-addresses) |
 <!---LeetCode Topics End-->
