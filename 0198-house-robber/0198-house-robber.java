@@ -4,16 +4,18 @@ class Solution {
         if(ind == 0) return nums[0];
 
         if(dp[ind] != -1) return dp[ind];
-
-        int pick = nums[ind] + f(ind-2,nums,dp);
-        int notPick = f(ind-1, nums, dp);
+        int pick = nums[ind] + f(ind-2,nums, dp);
+        int notPick = f(ind-1,nums, dp);
 
         return dp[ind] = Math.max(pick, notPick);
     }
     public int rob(int[] nums) {
         int n = nums.length;
+        int ans = 0;
         int[] dp = new int[n];
+
         Arrays.fill(dp, -1);
-        return f(n-1, nums, dp);
+
+        return f(n-1,nums,dp);
     }
 }
