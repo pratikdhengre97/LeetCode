@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/pratikdhengre97/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 ## Design
 |  |
@@ -116,10 +117,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/pratikdhengre97/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/pratikdhengre97/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 ## Iterator
 |  |
@@ -138,4 +141,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0093-restore-ip-addresses](https://github.com/pratikdhengre97/LeetCode/tree/master/0093-restore-ip-addresses) |
+## Depth-First Search
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
