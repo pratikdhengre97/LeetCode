@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/pratikdhengre97/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/pratikdhengre97/LeetCode/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
 | [0120-triangle](https://github.com/pratikdhengre97/LeetCode/tree/master/0120-triangle) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/pratikdhengre97/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/pratikdhengre97/LeetCode/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/pratikdhengre97/LeetCode/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/pratikdhengre97/LeetCode/tree/master/0120-triangle) |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/pratikdhengre97/LeetCode/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
 ## Breadth-First Search
 |  |
