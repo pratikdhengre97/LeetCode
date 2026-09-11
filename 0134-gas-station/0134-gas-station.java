@@ -3,20 +3,15 @@ class Solution {
         int totalGas = 0;
         int totalCost = 0;
 
-        for(int val : gas) {
-            totalGas += val;
-        }
-        for(int c : cost) {
-            totalCost += c;
-        }
-
-        if(totalGas < totalCost) return -1;
+        
 
         //unique element exist
         int start = 0;
         int currGas = 0;
 
         for(int i=0;i<gas.length;i++) {
+            totalGas += gas[i];
+            totalCost += cost[i];
             currGas += (gas[i] - cost[i]);
 
             if(currGas < 0) {
@@ -24,6 +19,7 @@ class Solution {
                 currGas = 0;
             }
         }
+        if(totalGas < totalCost) return -1;
         return start;
     }
 }
