@@ -15,10 +15,12 @@
  */
 class Solution {
     public int maxDepth(TreeNode root) {
-        if(root == null) return 0;
 
+        if(root == null) return 0;
+        
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
+
         int level = 0;
 
         while(!q.isEmpty()) {
