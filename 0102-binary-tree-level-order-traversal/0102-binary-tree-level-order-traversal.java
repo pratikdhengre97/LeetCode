@@ -14,36 +14,33 @@
  * }
  */
 class Solution {
-    public void levelOrderTraversal(TreeNode root, List<List<Integer>> ans) {
-        if(root == null) return;
+    
+    public List<List<Integer>> levelOrder(TreeNode root) {
+
+        
+        List<List<Integer>> ans = new ArrayList<>();
+        if(root == null) return ans;
 
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
 
         while(!q.isEmpty()) {
             List<Integer> list = new ArrayList<>();
-
             int size = q.size();
+
             for(int i=0;i<size;i++) {
                 TreeNode node = q.poll();
                 list.add(node.val);
 
                 if(node.left != null) {
-                    q.add(node.left);
+                    q.offer(node.left);
                 }
-
                 if(node.right != null) {
-                    q.add(node.right);
+                    q.offer(node.right);
                 }
             }
             ans.add(list);
         }
-    }
-    public List<List<Integer>> levelOrder(TreeNode root) {
-
-        List<List<Integer>> ans = new ArrayList<>();
-
-        levelOrderTraversal(root, ans);
 
         return ans;
     }
