@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/pratikdhengre97/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/pratikdhengre97/LeetCode/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/pratikdhengre97/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/pratikdhengre97/LeetCode/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/pratikdhengre97/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
 ## Math
@@ -164,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0001-two-sum) |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/pratikdhengre97/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Quicksort
 |  |
@@ -199,8 +203,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
