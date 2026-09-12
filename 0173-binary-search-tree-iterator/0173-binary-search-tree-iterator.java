@@ -20,19 +20,18 @@ class BSTIterator {
     }
     
     public int next() {
-        TreeNode node = st.pop();
-        pushAll(node.right);
-
-        return node.val;
+        TreeNode tmp = st.pop();
+        pushAll(tmp.right);
+        return tmp.val;
     }
     
     public boolean hasNext() {
         return !st.isEmpty();
     }
-    public void pushAll(TreeNode node) {
-        while(node != null) {
-            st.push(node);
-            node = node.left;
+    public void pushAll(TreeNode root) {
+        while(root != null) {
+            st.push(root);
+            root = root.left;
         }
     }
 }
