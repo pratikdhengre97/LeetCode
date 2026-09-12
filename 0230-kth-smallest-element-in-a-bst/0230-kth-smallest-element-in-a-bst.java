@@ -22,8 +22,7 @@ class Solution {
         inorderTraversal(root.right, list);
     }
     public int kthSmallest(TreeNode root, int k) {
-        
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
         inorderTraversal(root, list);
 
