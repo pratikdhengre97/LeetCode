@@ -15,9 +15,10 @@
  */
 class Solution {
     public int getHeight(TreeNode root, int[] diameter) {
+
         if(root == null) return 0;
 
-        int leftHeight = getHeight(root.left,diameter);
+        int leftHeight = getHeight(root.left, diameter);
         int rightHeight = getHeight(root.right, diameter);
 
         diameter[0] = Math.max(diameter[0], leftHeight + rightHeight);
