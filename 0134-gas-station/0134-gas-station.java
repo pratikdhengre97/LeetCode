@@ -3,23 +3,28 @@ class Solution {
         int totalGas = 0;
         int totalCost = 0;
 
-        
+        int n = gas.length;
 
-        //unique element exist
+        for(int i=0;i<n;i++) {
+            totalGas += gas[i];
+            totalCost += cost[i];
+        }
+
+        if(totalGas < totalCost) return -1;
+
+        //unique
         int start = 0;
         int currGas = 0;
 
-        for(int i=0;i<gas.length;i++) {
-            totalGas += gas[i];
-            totalCost += cost[i];
-            currGas += (gas[i] - cost[i]);
+        for(int i=0;i<n;i++) {
+
+            currGas += (gas[i]-cost[i]);
 
             if(currGas < 0) {
                 start = i+1;
                 currGas = 0;
             }
         }
-        if(totalGas < totalCost) return -1;
         return start;
     }
 }
