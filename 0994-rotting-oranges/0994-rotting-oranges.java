@@ -1,35 +1,35 @@
 class Solution {
     public int orangesRotting(int[][] grid) {
-        
         int n = grid.length;
         int m = grid[0].length;
 
         int total = 0;
         int cnt = 0;
 
-        Queue<int[]> rotten = new LinkedList<>();
-
+        Queue<int[]> q = new LinkedList<>();
         for(int i=0;i<n;i++) {
             for(int j=0;j<m;j++) {
                 if(grid[i][j] == 1 || grid[i][j] == 2) {
                     total++;
                 }
                 if(grid[i][j] == 2) {
-                    rotten.offer(new int[]{i,j});
+                    q.offer(new int[]{i,j});
                 }
             }
         }
+
         int[] dx = {-1,0,1,0};
         int[] dy = {0,1,0,-1};
+
         int days = 0;
 
-        while(!rotten.isEmpty()) {
-            int k = rotten.size();
+        while(!q.isEmpty()) {
+            int size = q.size();
 
-            cnt += k;
+            cnt += size;
 
-            for(int i=0;i<k;i++) {
-                int[] pos = rotten.poll();
+            for(int i=0;i<size;i++) {
+                int[] pos = q.poll();
                 int x = pos[0];
                 int y = pos[1];
 
@@ -40,14 +40,12 @@ class Solution {
                     if(nx < 0 || ny < 0 || nx >= n || ny >= m || grid[nx][ny] != 1) continue;
 
                     grid[nx][ny] = 2;
-                    rotten.add(new int[]{nx, ny});
+
+                    q.offer(new int[]{nx,ny});
                 }
             }
-            if(!rotten.isEmpty()) days++;
-
-            
+            if(!q.isEmpty()) days++;
         }
         return total == cnt ? days : -1;
-
     }
 }
