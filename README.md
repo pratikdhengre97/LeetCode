@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/pratikdhengre97/LeetCode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/pratikdhengre97/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0994-rotting-oranges](https://github.com/pratikdhengre97/LeetCode/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/pratikdhengre97/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0994-rotting-oranges](https://github.com/pratikdhengre97/LeetCode/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/pratikdhengre97/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Greedy
 |  |
 | ------- |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/pratikdhengre97/LeetCode/tree/master/0322-coin-change) |
 | [0994-rotting-oranges](https://github.com/pratikdhengre97/LeetCode/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/pratikdhengre97/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -191,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pratikdhengre97/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/pratikdhengre97/LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/pratikdhengre97/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Binary Lifting
 |  |
 | ------- |
@@ -231,4 +235,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/pratikdhengre97/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+## Union-Find
+|  |
+| ------- |
+| [1020-number-of-enclaves](https://github.com/pratikdhengre97/LeetCode/tree/master/1020-number-of-enclaves) |
 <!---LeetCode Topics End-->
