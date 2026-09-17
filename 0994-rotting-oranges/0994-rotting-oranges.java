@@ -6,7 +6,7 @@ class Solution {
         int total = 0;
         int cnt = 0;
 
-        Queue<int[]> q = new LinkedList<>();
+        Queue<int[]> q  = new LinkedList<>();
         for(int i=0;i<n;i++) {
             for(int j=0;j<m;j++) {
                 if(grid[i][j] == 1 || grid[i][j] == 2) {
