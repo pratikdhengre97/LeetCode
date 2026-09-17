@@ -9,14 +9,16 @@ class Solution {
 
         for(int i=0;i<n;i++) {
             for(int j=0;j<m;j++) {
-                if(i==0|| i==n-1 || j==0 || j==m-1) {
+                if(i==0 || i == n-1 || j==0 || j == m-1) {
                     if(grid[i][j] == 1) {
                         vis[i][j] = true;
+
                         q.offer(new int[]{i,j});
                     }
                 }
             }
         }
+
         while(!q.isEmpty()) {
             int[] cell = q.poll();
             int row = cell[0];
@@ -26,12 +28,13 @@ class Solution {
             int[] delCol = {0,1,0,-1};
 
             for(int i=0;i<4;i++) {
-                int nrow = row + delRow[i];
-                int ncol = col + delCol[i];
+                int nx = row + delRow[i];
+                int ny = col + delCol[i];
 
-                if(nrow >=0 && nrow < n && ncol >= 0 && ncol < m && grid[nrow][ncol] == 1 && !vis[nrow][ncol]) {
-                    vis[nrow][ncol] = true;
-                    q.offer(new int[]{nrow,ncol});
+                if(nx >= 0 && ny >= 0 && nx < n && ny < m && grid[nx][ny] == 1 && !vis[nx][ny]) {
+                    vis[nx][ny] = true;
+
+                    q.offer(new int[]{nx, ny});
                 }
             }
         }
