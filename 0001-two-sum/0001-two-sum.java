@@ -8,7 +8,7 @@ class Solution {
             if(mpp.containsKey(target-nums[i])) {
                 System.out.println(i);
                 System.out.println(mpp.get(target-nums[i]));
-                return new int[]{i,mpp.get(target-nums[i])};
+                return new int[]{mpp.get(target-nums[i]),i};
             }
             mpp.put(nums[i], i);
         }
