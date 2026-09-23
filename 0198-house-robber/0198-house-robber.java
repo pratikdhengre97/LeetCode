@@ -1,21 +1,24 @@
 class Solution {
-    public int f(int ind, int[] nums, int[] dp) {
-        if(ind < 0) return 0;
-        if(ind == 0) return nums[0];
+    public int f(int index, int[] nums, int[] dp) {
+        if(index == 0) {
+            return nums[index];
+        }
+        if(index < 0) return 0;
 
-        if(dp[ind] != -1) return dp[ind];
-        int pick = nums[ind] + f(ind-2,nums, dp);
-        int notPick = f(ind-1,nums, dp);
+        if(dp[index] != -1) return dp[index];
 
-        return dp[ind] = Math.max(pick, notPick);
+        int notPick = f(index-1, nums,dp);
+
+        int pick = nums[index] + f(index-2, nums,dp);
+
+        return dp[index] = Math.max(pick, notPick);
     }
     public int rob(int[] nums) {
         int n = nums.length;
-        int ans = 0;
-        int[] dp = new int[n];
 
+        int[] dp = new int[n+1];
         Arrays.fill(dp, -1);
 
-        return f(n-1,nums,dp);
+        return f(n-1, nums, dp);
     }
 }
