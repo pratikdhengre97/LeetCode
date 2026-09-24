@@ -1,6 +1,6 @@
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        ArrayList<ArrayList<int[]>> adj = new ArrayList<>();
+        List<List<int[]>> adj = new ArrayList<>();
 
         for(int i=0;i<n;i++) {
             adj.add(new ArrayList<>());
@@ -19,7 +19,7 @@ class Solution {
         dist[src] = 0;
 
         Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{0,src,0});
+        q.offer(new int[]{0, src, 0});
 
         while(!q.isEmpty()) {
             int[] cell = q.poll();
@@ -35,12 +35,10 @@ class Solution {
 
                 if(cost + wt < dist[nextNode]) {
                     dist[nextNode] = cost + wt;
-
                     q.offer(new int[]{stops+1, nextNode, dist[nextNode]});
                 }
             }
         }
-
         return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
     }
 }
