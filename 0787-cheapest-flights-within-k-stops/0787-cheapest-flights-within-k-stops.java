@@ -16,11 +16,10 @@ class Solution {
 
         int[] dist = new int[n];
         Arrays.fill(dist, Integer.MAX_VALUE);
-
         dist[src] = 0;
 
         Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{0,src,0}); // stops, src, code
+        q.add(new int[]{0,src,0});
 
         while(!q.isEmpty()) {
             int[] cell = q.poll();
@@ -41,6 +40,7 @@ class Solution {
                 }
             }
         }
+
         return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
     }
 }
