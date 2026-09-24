@@ -1,27 +1,27 @@
 class Solution {
-    public int f(int index, int[] coins, int target, int[][] dp) {
-        if(index == 0) {
-            if(target%coins[index] == 0) {
-                return target/coins[index];
+    public int f(int ind, int[] coins, int target, int[][] dp) {
+        if(ind == 0) {
+            if(target%coins[ind] == 0) {
+                return target/coins[ind];
             }
             return Integer.MAX_VALUE;
         }
 
-        if(dp[index][target] != -1) return dp[index][target];
+        if(dp[ind][target] != -1) return dp[ind][target]; 
 
-        int notPick = f(index-1, coins, target, dp);
+        int notPick = f(ind-1, coins, target, dp);
 
         int pick = Integer.MAX_VALUE;
 
-        if(coins[index] <= target) {
-            int result = f(index, coins, target-coins[index], dp);
+        if(coins[ind]<=target) {
+            int result = f(ind, coins, target-coins[ind], dp);
 
             if(result != Integer.MAX_VALUE) {
                 pick = 1 + result;
             }
         }
 
-        return dp[index][target] = Math.min(pick, notPick);
+        return dp[ind][target] = Math.min(pick, notPick);
     }
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
