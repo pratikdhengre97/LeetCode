@@ -13,13 +13,15 @@ class Solution {
 
             adj.get(u).add(new int[]{v, cost});
         }
+
         int[] dist = new int[n];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[src] = 0;
 
-        Queue<int[]> q = new LinkedList<>();
+        
 
-        q.add(new int[]{0,src,0});
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[]{0, src,0});
 
         while(!q.isEmpty()) {
             int[] cell = q.poll();
@@ -29,7 +31,6 @@ class Solution {
 
             if(stops > k) continue;
 
-            
             for(int[] neighbour : adj.get(node)) {
                 int nextNode = neighbour[0];
                 int wt = neighbour[1];
@@ -37,7 +38,7 @@ class Solution {
                 if(cost + wt < dist[nextNode]) {
                     dist[nextNode] = cost + wt;
 
-                    q.add(new int[]{stops+1, nextNode, dist[nextNode]});
+                    q.offer(new int[]{stops+1, nextNode, dist[nextNode]});
                 }
             }
         }
