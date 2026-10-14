@@ -21,7 +21,7 @@ class Solution {
             return false;
         }
 
-        return checkSum(root.left, minVal, root.val) && checkSum(root.right,root.val, maxVal);
+        return checkSum(root.left, minVal, root.val) && checkSum(root.right, root.val, maxVal); 
     }
     public boolean isValidBST(TreeNode root) {
         return checkSum(root, Long.MIN_VALUE, Long.MAX_VALUE);
