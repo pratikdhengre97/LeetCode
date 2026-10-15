@@ -13,12 +13,10 @@ class Solution {
 
             adj.get(u).add(new int[]{v, cost});
         }
-
+        
         int[] dist = new int[n];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[src] = 0;
-
-        
 
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{0, src,0});
