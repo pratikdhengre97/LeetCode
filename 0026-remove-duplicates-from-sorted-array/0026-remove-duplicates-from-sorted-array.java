@@ -5,7 +5,7 @@ class Solution {
         int i=0;
         int j=i+1;
 
-        while(i < n && j < n) {
+        while(j < n) {
             if(nums[i] == nums[j]) {
                 j++;
             }
