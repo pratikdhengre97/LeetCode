@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/pratikdhengre97/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pratikdhengre97/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/pratikdhengre97/LeetCode/tree/master/0134-gas-station) |
+| [0189-rotate-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/pratikdhengre97/LeetCode/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/pratikdhengre97/LeetCode/tree/master/0238-product-of-array-except-self) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
+| [0189-rotate-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0189-rotate-array) |
 | [0455-assign-cookies](https://github.com/pratikdhengre97/LeetCode/tree/master/0455-assign-cookies) |
 ## Sorting
 |  |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/pratikdhengre97/LeetCode/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0189-rotate-array) |
 ## Matrix
 |  |
 | ------- |
