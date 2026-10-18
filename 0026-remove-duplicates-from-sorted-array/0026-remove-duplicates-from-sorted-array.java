@@ -6,16 +6,15 @@ class Solution {
         int j=i+1;
 
         while(j < n) {
-            if(nums[i] == nums[j]) {
-                j++;
-            }
-            else {
-                i++;
+            if(nums[i] != nums[j]) {
+                  i++;
                 int temp = nums[i];
                 nums[i] = nums[j];
                 nums[j] = temp;
-                j++;
             }
+            
+                j++;
+            
         }
         return i+1;
     }
