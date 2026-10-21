@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/pratikdhengre97/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pratikdhengre97/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/pratikdhengre97/LeetCode/tree/master/0134-gas-station) |
+| [0169-majority-element](https://github.com/pratikdhengre97/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/pratikdhengre97/LeetCode/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/pratikdhengre97/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/pratikdhengre97/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/pratikdhengre97/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Prefix Sum
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/pratikdhengre97/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/pratikdhengre97/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -195,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/pratikdhengre97/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/pratikdhengre97/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/pratikdhengre97/LeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -250,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/pratikdhengre97/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/pratikdhengre97/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Merge Sort
 |  |
@@ -279,4 +284,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/pratikdhengre97/LeetCode/tree/master/0268-missing-number) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/pratikdhengre97/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
