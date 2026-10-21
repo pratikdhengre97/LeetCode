@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/pratikdhengre97/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/pratikdhengre97/LeetCode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/pratikdhengre97/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/pratikdhengre97/LeetCode/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/pratikdhengre97/LeetCode/tree/master/0075-sort-colors) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/pratikdhengre97/LeetCode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/pratikdhengre97/LeetCode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/pratikdhengre97/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0463-island-perimeter](https://github.com/pratikdhengre97/LeetCode/tree/master/0463-island-perimeter) |
 | [0994-rotting-oranges](https://github.com/pratikdhengre97/LeetCode/tree/master/0994-rotting-oranges) |
@@ -293,5 +295,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/pratikdhengre97/LeetCode/tree/master/0054-spiral-matrix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/pratikdhengre97/LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
