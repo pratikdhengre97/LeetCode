@@ -1,20 +1,19 @@
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
-        int m = matrix[0].length;
-        int[][] arr = new int[n][m]; // remove this
 
-        for(int i=0;i<n;i++) {
-            for(int j=0;j<m;j++) {
-                arr[j][n-i-1] = matrix[i][j];
+        int[][] rotated = new int[n][n];
+
+        for(int row=0;row<n;row++) {
+            for(int col=0;col<n;col++) {
+                rotated[col][n-1-row] = matrix[row][col];
             }
         }
 
-        
-         for(int i=0;i<n;i++) {
-             for(int j=0;j<m;j++) {
-                 matrix[i][j] = arr[i][j]; // copy the result in the original array 
-             }
-         }
+        for(int row=0;row<n;row++) {
+            for(int col=0;col<n;col++) {
+                matrix[row][col] = rotated[row][col];
+            }
+        }
     }
 }
