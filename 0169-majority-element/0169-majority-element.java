@@ -1,17 +1,20 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        int n = nums.length;
-        Map<Integer, Integer> mpp = new HashMap<>();
+        //Boyer Moore's Voting Algorithm
+        int candidate = 0;
+        int cnt = 0;
 
         for(int num : nums) {
-            mpp.put(num, mpp.getOrDefault(num, 0)+1);
-        }
-
-        for(Map.Entry<Integer, Integer> values : mpp.entrySet()) {
-            if(values.getValue() > n/2) {
-                return values.getKey();
+            if(cnt == 0) {
+                candidate = num;
+            }
+            if(candidate == num) {
+                cnt++;
+            }
+            else {
+                cnt--;
             }
         }
-        return -1;
+        return candidate;
     }
 }
