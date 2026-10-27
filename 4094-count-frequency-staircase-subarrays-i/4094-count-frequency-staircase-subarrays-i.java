@@ -1,8 +1,8 @@
 class Solution {
     public int countStaircase(int[] nums) {
+        
         int n = nums.length;
         int ans = 0;
-
         for(int i=0;i<n;i++) {
             Map<Integer, Integer> mpp = new LinkedHashMap<>();
 
@@ -10,7 +10,7 @@ class Solution {
                 mpp.put(nums[j], mpp.getOrDefault(nums[j], 0)+1);
 
                 int expected = 1;
-                boolean valid = true;
+            boolean valid = true;
 
                 for(int freq : mpp.values()) {
                     if(freq != expected) {
@@ -20,9 +20,12 @@ class Solution {
                     expected++;
                 }
                 if(valid) {
-                    ans++;
-                }
+                ans++;
             }
+            }
+            
+            
+            
         }
         return ans;
     }
